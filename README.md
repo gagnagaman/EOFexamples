@@ -135,10 +135,12 @@ python src/eof_analysis_atlantic_detrended.py --start_year 1910
 - **EOF 2 (13.7%):** Pacific Decadal Oscillation (PDO) / ENSO-like decadal pattern.
 - **EOF 3 & 4 (~4% each):** Atlantic Multidecadal Variability and Southern Ocean modes.
 
-### North Atlantic Basin (10°N–82°N, Linearly Detrended Post-1910)
-- **Detrended EOF 1 (35.8%):** Internal Atlantic Multidecadal Variability (AMV/AMO) showing multidecadal warm phases (1930s–1950s, 1995+) and cold intervals (1910s, 1970s–1980s).
-- **Detrended EOF 2 (15.9%):** North Atlantic SST Tripole reflecting North Atlantic Oscillation (NAO) surface forcing.
-- **Detrended EOF 3 & 4 (11.2% & 6.6%):** Subpolar vs. subtropical gradient and Arctic inflow modes.
+### North Atlantic Basin (ERSSTv5, 10°N–82°N, 1880–2020)
+- **EOF 1 (45.5%):** Basin-wide warming and multidecadal variability (AMV/AMO), characterized by warm periods in the 1930s–1950s, a cold period in the 1970s–1980s, and strong warming from the mid-1990s onward.
+- **EOF 2 (13.4%):** North Atlantic SST tripole pattern, featuring opposing anomalies between the subpolar gyre and the subtropical/eastern Atlantic, characteristic of oceanic response to the North Atlantic Oscillation (NAO).
+- **EOF 3 (9.5%):** Meridional gradient mode between the subpolar gyre and lower latitudes.
+- **EOF 4 (7.1%):** High-latitude mode focused on the Nordic Seas and Arctic inflow regions.
+- **Separation:** According to North's rule of thumb, Modes 1, 2, 3, and 4 are all statistically well-separated with non-overlapping error bars. Together, the top 4 modes account for **75.5%** of the total variance in the basin.
 
 ---
 
