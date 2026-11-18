@@ -1,3 +1,12 @@
+# Introduction
+Many years ago Silvia Venegas and I wrote a manual to assist students in our department (and elsewhere) in 
+doing EOF analysis and SVD for combined fields (see docs). We used matlab for the calculations and gave the recipes. 
+As a result this was used widely and is still being cited 30 years on. After playing around with ipython and jupyter notebooks
+I realised that if I was doing this again python would be the way. There are many packages that can do this now a days, in
+my experience what matters is being able to do the analysis and visualize it at the same time. This is what interactive data
+analysis is about. The translation is done using gemini 3.8 flash. It sometimes adds in terms (like names of eof fields) that 
+may be strange. 
+
 # Empirical Orthogonal Function (EOF) Analysis of Sea Surface Temperatures
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
