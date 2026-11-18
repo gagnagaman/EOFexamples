@@ -5,8 +5,11 @@ As a result this was used widely and is still being cited 30 years on. After pla
 I realised that if I was doing this again python would be the way. There are many packages that can do this now a days, in
 my experience what matters is being able to do the analysis and visualize it at the same time. This is what interactive data
 analysis is about. The translation is done using gemini 3.8 flash. It sometimes adds in terms (like names of eof fields) that 
-may be strange. 
-I decided to use ERSST data that I had lying around, but this can be used for any data.  Only the EOF of single fields is shown, the SVD of two fields to find the co-variant behaviour is not implemented.
+may be strange. Since we wrote the manual, there has been more attention on how to apply area weighing and here a cos of latitude
+is implemented (at the suggestion of gemini!). The reference for this is added below (Baldwin et al. 2009), but this does not apply if the
+data is on an equal area grid. However,  I decided to use ERSST data that I had lying around, and this is regular lat-lon grid which 
+has unequal areas. 
+The manual dealt with both EOF of single fields and the SVD method for coupled fields. Here only the first method is implemented. 
 
 # Empirical Orthogonal Function (EOF) Analysis of Sea Surface Temperatures
 
@@ -150,3 +153,4 @@ python src/eof_analysis_atlantic_detrended.py --start_year 1910
 - Björnsson, H. and S. A. Venegas, 1997: *A Manual for EOF and SVD analyses of Climatic Data.* CCGCR Report No. 97-1, McGill University, 52 pp.
 - North, G. R., T. L. Bell, R. F. Cahalan, and F. J. Moeng, 1982: Sampling errors in the estimation of empirical orthogonal functions. *Mon. Wea. Rev.*, 110, 699–706.
 - Huang, B., et al., 2017: Extended Reconstructed Sea Surface Temperature version 5 (ERSSTv5), Upgrades, validations, and intercomparisons. *J. Climate*, 30, 8179–8205.
+- Baldwin, Mark P., David B. Stephenson, and Ian T. Jolliffe. "Spatial weighting and iterative projection methods for EOFs." Journal of Climate 22.2 (2009): 234-243.
