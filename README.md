@@ -6,6 +6,7 @@ I realised that if I was doing this again python would be the way. There are man
 my experience what matters is being able to do the analysis and visualize it at the same time. This is what interactive data
 analysis is about. The translation is done using gemini 3.8 flash. It sometimes adds in terms (like names of eof fields) that 
 may be strange. 
+I decided to use ERSST data that I had lying around, but this can be used for any data.  Only the EOF of single fields is shown, the SVD of two fields to find the co-variant behaviour is not implemented.
 
 # Empirical Orthogonal Function (EOF) Analysis of Sea Surface Temperatures
 
